@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+    server:
+        image: d1egoprog/webvowl:1.1.7
+        ports:
+            - 8080:8080
+        restart: always
